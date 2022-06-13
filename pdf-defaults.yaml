@@ -1,0 +1,17 @@
+input-files:
+  - docs/report.md
+output-file: report.pdf
+pdf-engine: lualatex
+citeproc: true
+variables:
+  classoption: pandoc
+  documentclass: bxjsarticle
+metadata:
+  title: "レポート"
+  figureTitle: "図 "
+  tableTitle: "表 "
+  listingTitle: "コード "
+  figPrefix: "図."
+  eqnPrefix: "式."
+  tblPrefix: "表."
+  lstPrefix: "コード."
