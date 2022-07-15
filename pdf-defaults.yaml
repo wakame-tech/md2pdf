@@ -1,11 +1,19 @@
 input-files:
-  - docs/report.md
+  - docs/report2.md
 output-file: report.pdf
 pdf-engine: lualatex
 citeproc: true
 variables:
   classoption: pandoc
   documentclass: bxjsarticle
+  # 字下げ
+  indent: true
+  # 余白
+  geometry:
+    - top=20mm
+    - right=20mm
+    - left=20mm
+    - bottom=20mm
 metadata:
   title: "レポート"
   figureTitle: "図 "
